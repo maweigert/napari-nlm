@@ -1,8 +1,8 @@
 # napari-nlm
 
-[![License BSD-3](https://img.shields.io/pypi/l/napari-nlm.svg?color=green)](https://github.com/maweigert/napari-nlm/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/napari-nlm.svg?color=green)](https://pypi.org/project/napari-nlm)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-nlm.svg?color=green)](https://python.org)
+[![License BSD-3](https://img.shields.io/pypi/l/napari-nlm.svg)](https://github.com/maweigert/napari-nlm/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-nlm.svg)](https://pypi.org/project/napari-nlm)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-nlm.svg)](https://python.org)
 [![tests](https://github.com/maweigert/napari-nlm/workflows/tests/badge.svg)](https://github.com/maweigert/napari-nlm/actions)
 [![codecov](https://codecov.io/gh/maweigert/napari-nlm/branch/main/graph/badge.svg)](https://codecov.io/gh/maweigert/napari-nlm)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-nlm)](https://napari-hub.org/plugins/napari-nlm)
