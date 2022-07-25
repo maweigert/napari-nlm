@@ -12,7 +12,7 @@
 
 GPU accelerated non local means (NLM) denoising plugin for napari (WIP)
 
-* Currently only 2D images are supported
+* Currently only 2D images supported
 * Needs a GPU (OpenCL)
 
 ![Screenshot](images/screenshot.jpg)
