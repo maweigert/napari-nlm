@@ -7,12 +7,15 @@
 [![codecov](https://codecov.io/gh/maweigert/napari-nlm/branch/main/graph/badge.svg)](https://codecov.io/gh/maweigert/napari-nlm)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-nlm)](https://napari-hub.org/plugins/napari-nlm)
 
-GPU accelerated NLM (non local means) denoising plugin for napari
-
 ----------------------------------
 
-Currently only 2D images are supported. Needs a GPU (OpenCL). 
 
+GPU accelerated non local means (NLM) denoising plugin for napari (WIP)
+
+* Currently only 2D images are supported
+* Needs a GPU (OpenCL)
+
+![Screenshot](images/screenshot.jpg)
 
 
 ## Installation
@@ -20,6 +23,16 @@ Currently only 2D images are supported. Needs a GPU (OpenCL).
 You can install `napari-nlm` via [pip]:
 
     pip install napari-nlm
+
+## Usage
+
+1. Open example image `Open Sample > napari-nlm: noise bricks`
+2. Adjust parameters 
+   * `sigma`: denoising strength (the larger sigma, the greater the smoothing)
+   * `patch_radius`: size of local patches, 2 or 3 is a good default
+   * `search_radius`: size of search area around each pixel to find similar patches, 7-11 is a good default
+3. Denoise by pressing `run`
+
 
 ## License
 
