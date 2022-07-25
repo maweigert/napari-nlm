@@ -5,24 +5,14 @@ contributions:
     - id: napari-nlm.make_sample_data
       python_name: napari_nlm._sample_data:make_sample_data
       title: Load sample data from napari NLM
-    - id: napari-nlm.make_qwidget
-      python_name: napari_nlm._widget:ExampleQWidget
-      title: Make example QWidget
-    - id: napari-nlm.make_magic_widget
-      python_name: napari_nlm._widget:example_magic_widget
-      title: Make example magic widget
-    - id: napari-nlm.make_func_widget
-      python_name: napari_nlm._widget:example_function_widget
-      title: Make example function widget
+    - id: napari-nlm.denoise_nlm
+      python_name: napari_nlm._widget:denoise_nlm
+      title: denoise_nlm
   sample_data:
     - command: napari-nlm.make_sample_data
-      display_name: napari NLM
+      display_name: noisy bricks
       key: unique_id.1
   widgets:
-    - command: napari-nlm.make_qwidget
-      display_name: Example QWidget
-    - command: napari-nlm.make_magic_widget
-      display_name: Example Magic Widget
-    - command: napari-nlm.make_func_widget
+    - command: napari-nlm.denoise_nlm
       autogenerate: true
-      display_name: Example Function Widget
+      display_name: denoise_nlm
