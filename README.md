@@ -26,7 +26,7 @@ You can install `napari-nlm` via [pip]:
 
 ## Usage
 
-1. Open example image `Open Sample > napari-nlm: noise bricks`
+1. Open example image `Open Sample > napari-nlm: noisy bricks`
 2. Adjust parameters 
    * `sigma`: denoising strength (the larger sigma, the greater the smoothing)
    * `patch_radius`: size of local patches, 2 or 3 is a good default
