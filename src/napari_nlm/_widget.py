@@ -28,9 +28,14 @@ def denoise_nlm(
     search_radius: int = 11,
 ) -> napari.types.ImageData:
 
-    if image.ndim!=2: 
-        raise ValueError('Only 2D images supported!')
-    y = denoise.nlm2(image, sigma, patch_radius, search_radius)
+
+    if image.ndim==2: 
+        y = denoise.nlm2(image, sigma, patch_radius, search_radius)
+    elif image.ndim==3: 
+        y = denoise.nlm3(image, sigma, patch_radius, search_radius)
+    else:
+        raise NotImplementedError('Only 2D/3D images supported!')
+    
 
     return y
 

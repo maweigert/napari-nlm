@@ -11,8 +11,14 @@ from __future__ import annotations
 import numpy as np
 from skimage import data
 
-def make_sample_data():
+def make_sample_data_2d():
     """Generates an image"""
     x = data.brick()
+    x = x + 20*np.random.normal(0,1,x.shape)
+    return [(x, {})]
+
+def make_sample_data_3d():
+    """Generates an image"""
+    x = data.cells3d()[:,1]//255
     x = x + 20*np.random.normal(0,1,x.shape)
     return [(x, {})]
